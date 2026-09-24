@@ -24,3 +24,15 @@ rolling updates and zero downtime deployments
 
 this is the problem k8s was created to solve , it acts as the brain or orchestarator for your containers , handling the complex task of managing them at scale automatically 
 
+K8S detail
+
+origin: developed by google , inspired by internal systems Borg and omega 
+
+Launch : 2014
+
+CNCF Donation : donated to the CNCF in 2015 WHICH NOW MAINTAINS IT 
+
+ADOPTION : Widely used across major cloud providers today 
+
+meaning : k8s cgreek meaning helmsman or pilot symbolizing its role in steering applications 
+
