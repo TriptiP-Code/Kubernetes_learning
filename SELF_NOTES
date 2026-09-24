@@ -129,3 +129,11 @@ K8S follows a client server arch consisting of a control plane (master)  and wor
 
 worker nodes run application owrkloads and include kubelet for cmmunication with the control plane , kube proxy for networking and a container runtime , such as conatinered docker to manage containers 
 
+CONTROL PLANE COMPONENTS 
+
+It is basically a collection of various compnents that help us in managing the over all health of a cluster , for e.g if you want to set up new pods , destry pods , scale pods etc , bassically 4 services run on the contril plane 
+
+KUBE API SERVER 
+
+The api server is a component of the k8s control plane that exposes the k8s api , it is like an initial gateway tp the cluster that listens to updates or qeries via cli like kubectl 
+
