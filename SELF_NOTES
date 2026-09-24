@@ -36,3 +36,15 @@ ADOPTION : Widely used across major cloud providers today
 
 meaning : k8s cgreek meaning helmsman or pilot symbolizing its role in steering applications 
 
+FEATURES OF K8S 
+
+Automated scheduling : efficiently places containers on nodes for optimal resources use 
+
+SEFL HEALING : automatically restarts , replaces and reshedules failed containers 
+
+rollouts and rollbacks : manages application updates and reverts when needed 
+
+scaling and load balacing : supports horizontal scaling and distributes traffic 
+
+resource optimisation : monitors and ensures efficient resource utilization 
+
