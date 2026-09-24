@@ -58,3 +58,62 @@ to overcome this , the industry moved toward microservices , where each feature 
 
 but with microservices came a new challenge instead of running one big app , companies now had to manage hundered or 1000s of small containerized services , containers slved the packaging problem , but without a ways to orchestarte them things got messy , thats where k8s came in acting like a smart manager that automated deployment , scaling coordination of all those microservices 
 
+TERMINOLOGIES IN K8S
+
+POD :
+
+Pod is the smallest unit you can deoloy in K8s , it wraps one or more containers that need to run together , sharing the same network and storage , containers inside a pof can easily communciate and work as a single unit 
+
+NODE :
+
+Node is a machine (physical or virtual) in a k8 cluster that runs your applications , each node containes the tools need to run pods , including the container runtime (like docker ), the kubelet(agent) and the kube proxy (networking)
+
+CLUSTER :
+
+K8s cluster is a grp of comouters (nodes) that work together to run your containerized applicatuons , these nodes can be real machines or virtual one 
+
+2 types of nodes in k0s cluster : 
+
+1. Master node (control plane) : 
+
+think of it as the brain of the cluster 
+it makes decisions , like where to run applications , handles scheduling and keeps track of everything
+
+2. Worker nodes : 
+
+these are the machines that actually run your appss inside containers 
+each worker node has a kubelet (agent) , a container runtime (like docker or containerd) and tools for networking monitioring 
+
+DEPLOYMET 
+
+Deployment is a k8s object used to manage a set of pods running your containerized applications , it provides declarative updates , meaning you tell k8s what your want , and it figures out how to get there 
+
+REPLICASET 
+
+Replicaset ensures that the right number of identical pods are running 
+
+SERVICES 
+
+A service in k8s is a way to connect applications runnning inside your cluster , it gives your pods a stable way to communicate , even if the pods themselved keep changing 
+
+INGRESS 
+
+Ingress is a way to manage external access to your services in a k8s cluster , it provides http and https routing to your services , acting as a reverse proxy 
+
+CONFIG MAP 
+
+Config map stores configuration settings sepearetly from the application , so changes can be made without modifying actual code 
+
+imagine you have an application that needs some settings like a db password or an api key , instead of hardcoding these settings into your app , you store them in a config map , your application can then read thsese settings from the configmap , your application can then read these settings from the config map at runtime , which makes it easy to update the settings without changing the app code 
+
+SECRET 
+
+A Secret is a way to store sensitive information(like password , api keys or tokens)  securely in a k8s cluster 
+
+PERSISTENT VOLUME (PV)
+
+A PV in k8s is a piece of storage in the cluster that you can use to store data and it doesnt get deleted when pod is removed or restarted 
+
+KUBELET
+
+Kubelet runs on each
