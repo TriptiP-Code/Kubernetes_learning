@@ -137,3 +137,4 @@ KUBE API SERVER
 
 The api server is a component of the k8s control plane that exposes the k8s api , it is like an initial gateway tp the cluster that listens to updates or qeries via cli like kubectl 
 
+kubectl communicates with API server to inform what needs to be done like creating pods or deleting pods etc it also works as a gate keeper
