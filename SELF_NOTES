@@ -116,4 +116,9 @@ A PV in k8s is a piece of storage in the cluster that you can use to store data 
 
 KUBELET
 
-Kubelet runs on each
+Kubelet runs on each worked node and ensures pods are running as expected 
+
+KUBE PROXY 
+
+Manages networking inside the cluster , ensuring diff pods can communicate 
+
