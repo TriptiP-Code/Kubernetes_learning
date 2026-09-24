@@ -143,3 +143,8 @@ it generally validates requests recieved and then forwards them to other process
 
 no request can be directly passed to the cluster it has to be passed through the api server 
 
+KUBE SCHEDULER 
+
+Watches for newly created pods that have no assigned node 
+selects the best worker node for a pod based on resoruces requirements policy constratints and hardware/software limits
+
