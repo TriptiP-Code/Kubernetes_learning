@@ -48,3 +48,9 @@ scaling and load balacing : supports horizontal scaling and distributes traffic
 
 resource optimisation : monitors and ensures efficient resource utilization 
 
+MONOLITHIC V/S MICROSERVICES 
+
+In the past applications were built using monolithic architecture where everything was interconnected and bundled into one big codebase , this made updates risky for e.g if u wanted to change just the payment modules in an e commerce app you had to redoloy the entire application , a small bug could crash the whole system 
+
+![alt text](<ChatGPT Image Sep 24, 2026, 04_53_25 PM.png>)
+
