@@ -1,3 +1,26 @@
 KUBERNETES LEARNING 
 
 Kubernetes is an open source container management platform 
+
+Automates the deployment , management and scaling of container based applications.
+
+Developed at google in 2014 , k8 draws on googles production experience and is now mainatained by the cloud native computing foundation 
+
+it orchestrates containers grouping them into logical units called pods and managing their lifecycle acriss a cluster of machines 
+
+it automatically restarts failed containers , replacrs them when necessary and reschdules workloads onto healthy nodes to maintain the desired state
+
+
+K8S is like a ship captain for containers , organising placing them on multiple computers like a ship carrying many containers , its introduction will explain key k8s ideas like pods , services and deployments 
+
+Before k8s , docker and docker swarm transformed how developers package applications it  allowed them to bundle an application and its dependencies into a single prtable unit called a container 
+
+this worked fine for small scale deployements but when applications gre to hundered or thousands of containers the following problems appeared 
+
+scalability isssues 
+multi cloud deployments 
+security and resource management 
+rolling updates and zero downtime deployments 
+
+this is the problem k8s was created to solve , it acts as the brain or orchestarator for your containers , handling the complex task of managing them at scale automatically 
+
