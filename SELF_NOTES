@@ -54,3 +54,7 @@ In the past applications were built using monolithic architecture where everythi
 
 ![alt text](<ChatGPT Image Sep 24, 2026, 04_53_25 PM.png>)
 
+to overcome this , the industry moved toward microservices , where each feature (like payments , serach , or notifications ) is built and deployed independentuly , This made applications more flexible and scalable 
+
+but with microservices came a new challenge instead of running one big app , companies now had to manage hundered or 1000s of small containerized services , containers slved the packaging problem , but without a ways to orchestarte them things got messy , thats where k8s came in acting like a smart manager that automated deployment , scaling coordination of all those microservices 
+
