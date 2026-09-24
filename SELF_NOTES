@@ -140,4 +140,6 @@ The api server is a component of the k8s control plane that exposes the k8s api 
 kubectl communicates with API server to inform what needs to be done like creating pods or deleting pods etc it also works as a gate keeper
 
 it generally validates requests recieved and then forwards them to other processes 
-\
+
+no request can be directly passed to the cluster it has to be passed through the api server 
+
