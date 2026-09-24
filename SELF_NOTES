@@ -122,3 +122,10 @@ KUBE PROXY
 
 Manages networking inside the cluster , ensuring diff pods can communicate 
 
+
+KUBERNETES ARCHITECTURE 
+
+K8S follows a client server arch consisting of a control plane (master)  and worker nodes , the control plane includes components such as the api server , schduler , contriller manaegr and etcd for the cluster state storage
+
+worker nodes run application owrkloads and include kubelet for cmmunication with the control plane , kube proxy for networking and a container runtime , such as conatinered docker to manage containers 
+
