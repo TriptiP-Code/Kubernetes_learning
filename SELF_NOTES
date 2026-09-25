@@ -148,3 +148,25 @@ KUBE SCHEDULER
 Watches for newly created pods that have no assigned node 
 selects the best worker node for a pod based on resoruces requirements policy constratints and hardware/software limits
 
+KUBE CONTROLLER MANAGER 
+
+Runs controller processes that maintain the "desired state" of the cluster 
+NOde Controller : monitors node health 
+
+Replication controller: ensures the correct number of pod replicac are running 
+
+ETCD
+
+A consistent high availability key value store 
+stores all cluster data (the "source of truth") if it isnt in etcd , it doesnt exixt in kubernetes 
+
+WORKER NODE COMPONENTS 
+
+These are the nodes where the actual work happens , each node can have multiple pods and pods have containers running inside them , there are 3 processes in every node that are used to schdule and manage those pods , the following are the some of the components related to node:
+
+1.Container runtime 
+
+the software responsible for actually running the containers 
+it pulls images from a registry ans starts/stops the containers 
+
+2.Kubelet
