@@ -268,3 +268,18 @@ it facilitates the developes to package an application with all its dependencies
 
 it helps the developers for rapid development and prepare for quick production launch 
 
+CONTAINER IMAGES
+
+Images are executable package software that included everything needed to run an application ,
+
+this image informs how a container should instantiate , determaining which software components will run and how 
+
+container is a virtual eneviroment that bundles application code with all the dependencies requeied to run the application 
+
+the application runs quickly and reliably from one computing env to another 
+
+container registries ,which are centralised repositories of container images are where container images are kept
+
+docker hub , amazon ECR ,and Google container registry are a new few well know conatiner regiestries
+
+
