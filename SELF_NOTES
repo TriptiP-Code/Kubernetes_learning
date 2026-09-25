@@ -193,3 +193,17 @@ ACI (Application containerization interface : ) helps integrate and manage conta
 
 calico : provides high performance networking newtwork policy enforcement helping secure communication between workloads
 
+KUBECTL COMMANDS 
+
+TO VIEW ALL THE PODS IN THE CLUSTER 
+
+kubectl get pods
+
+TO VIEW A LIST OF ALL NODES IN THE CLUSTER 
+
+kubectl get nodes
+
+TO VIEW ALL THE SERVICES IN CLUSTER 
+
+kubectl get services 
+
