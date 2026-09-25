@@ -247,3 +247,16 @@ spec:
 using the kubectl apply command , it can be deploy the application to k8s after creating the deployment manifest 
 the resources required to execute your application , including as pods , k8s services and deployments will then be created by k8s 
 
+CONTAINER TECHNOLOGY 
+
+Containerization is OS Based virtualization that creates multiple virtual units in the userspace , known as containers 
+contianers share the same host kernel but are isolated from each other through private namespace and resource contril mechansims at th OS LEVEL , container based virtualisation provides a diff level of abstraction in terms of virtualisation and isolation when compared with hypervisors 
+
+hypervisiors use a lot of hardware which results in overhead in terms of cirtualuzing hardware and virtual device drivers 
+
+a fill OS runs on top of this virtualized hardware in each virtual machine instance 
+
+nut in cintrast containers implement isolation of processed at the OS level , thus avoiding such overhead , these continers run on top of the same shared maOS kernel of the underlying host macine and one or more processes can be run within each container , in containers you dont have to allicate ram it allcates dynamically during creation of containers while in VMS you need to first pre allocate the memory and then created the VM 
+
+CONTAINERSIATUON has better resource utilization compared to VMS and short bootup process , ut is the next evolution in virtualization 
+
