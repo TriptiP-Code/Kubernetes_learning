@@ -309,5 +309,15 @@ KUBERNETES PODS
 
 POD is the smallest unit that exixts in k8s it is similar to that of token in C++ lang
 
+A specific pos can have one or more applications , the nature of pods is ephemeral 
+
+ephemeral means that in any case if a pod fails then k8s can and will auto create a new replica / duplicate of the said pod and continue the operation
+
+the pods have the capacity to include on eor more containers based on the requiremnts , the containers based on the requirement 
+
+the containers can even be docker containers 
+
+the pods in k8s provide env dependencies which include persistent storage volumes which means it is permanent and is available storage volumes which means it is paermanent ans is available to all pods in the said cluster ans even config data that is required to run the container witjin the pods 
+
 
 
