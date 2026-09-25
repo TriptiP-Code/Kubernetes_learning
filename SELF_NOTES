@@ -223,3 +223,27 @@ containerize an application  first you need to build the image of the applicatio
 
 know you need to create the manifest file in the k8s to deploy your application in the form of container you can deploy the application by using which kind you want for e.g you canuse the deployment.yaml , demonset.yaml and so on 
 
+
+
+apuVersiom: apps/V1
+kind: Deployment
+metadata:
+  name: my-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-app
+  template:
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers:
+      - name: my-app
+        image: my-app:latest
+
+
+using the kubectl apply command , it can be deploy the application to k8s after creating the deployment manifest 
+the resources required to execute your application , including as pods , k8s services and deployments will then be created by k8s 
+
