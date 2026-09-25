@@ -213,3 +213,13 @@ WHAT ARE CONTAINERS IN K8S
 Containers are lightweighted , portable packaged applications that contains all the dependencies it required to run that application providing the consistency across the env , it simplifies that automation of deployment , scaling and management of these containerized applications.
 It works by orchestarating containers across a cluster of machines , providing high availability and efficient resource utilization , together containers are k8s enable eamless application developlment , deployment and scaling in cloud native env 
 
+CONTENERIZATION USING K8S 
+
+Containerization is the way of deploying microservcies or monolithic application using container orchestration tool k8s 
+
+k8s is the best tool to deploy the application in the form of containers becuase it offers so many features like load balacing , self healing and scaling 
+
+containerize an application  first you need to build the image of the application whcih can be done by using the docker and it contains all the dependencies required for the application to deoloy into the prooduction server after building the image know you need to push the image into the docker hub registry from where other or k8s can pull the image 
+
+know you need to create the manifest file in the k8s to deploy your application in the form of container you can deploy the application by using which kind you want for e.g you canuse the deployment.yaml , demonset.yaml and so on 
+
