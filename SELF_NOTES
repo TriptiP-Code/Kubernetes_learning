@@ -260,3 +260,11 @@ nut in cintrast containers implement isolation of processed at the OS level , th
 
 CONTAINERSIATUON has better resource utilization compared to VMS and short bootup process , ut is the next evolution in virtualization 
 
+DOCKER 
+
+Docker is container management tool that helps in creating and managing container s
+
+it facilitates the developes to package an application with all its dependencies into a single bundle know as docker image an dmake it protable to any system that supports docker and facilitates of running athe contaunerized application seamlessly 
+
+it helps the developers for rapid development and prepare for quick production launch 
+
