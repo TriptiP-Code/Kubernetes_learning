@@ -207,3 +207,9 @@ TO VIEW ALL THE SERVICES IN CLUSTER
 
 kubectl get services 
 
+
+WHAT ARE CONTAINERS IN K8S 
+
+Containers are lightweighted , portable packaged applications that contains all the dependencies it required to run that application providing the consistency across the env , it simplifies that automation of deployment , scaling and management of these containerized applications.
+It works by orchestarating containers across a cluster of machines , providing high availability and efficient resource utilization , together containers are k8s enable eamless application developlment , deployment and scaling in cloud native env 
+
