@@ -170,3 +170,26 @@ the software responsible for actually running the containers
 it pulls images from a registry ans starts/stops the containers 
 
 2.Kubelet
+
+an agent that runs on each node in the cluster 
+ensures that containers are running in a pod by following onstructions(podspecs) from the comtrol plane 
+reports health and status of the node back to the API server 
+
+3.kube proxy 
+
+a network proxy that maintains network rules on nodes 
+allows network communication to your pods frm inside or outside of the cluster
+handles service discovery dand load balancing 
+
+ADDONS PLUG IN 
+
+Kubernetes add on are additional components that extend the functionality of k8 cluster , they are tyically deployed as k8s resources and provide capabilities such as DNS , networking , virtualization and cluster management 
+
+coreDNS : Provides DNS -based service discovery and name resolution within the k8 cluster 
+
+kubeVirt : eNABLES VIRTUAL MACHINES TO RUN ALONGSIDE CONTAINERS , ALLOWING BOTH WORKLOADS to be managed through k8s 
+
+ACI (Application containerization interface : ) helps integrate and manage containerized applications acrooss diff envriomnents 
+
+calico : provides high performance networking newtwork policy enforcement helping secure communication between workloads
+
