@@ -295,3 +295,19 @@ the application runs quickly and reliably from one computing env to another
 container registeries which are centralised repositories of container images are where contianer images are kept docker hub , amazon ECR and GCR are a few well known contianer registeries 
 
 
+CONTAINER RUNTIMES 
+
+Container runtimes are software components responsible for running comtainers and managing container lifecycle on a host sustem
+
+they provide the necessary env for contianer ececution including resource allocation and isolation 
+
+popular container runtimes include docker , containered CRI Pod man 
+
+each offering unique featues and optimizations , these runtimes are essential for deploying and managing containized applications efficently in various env 
+
+KUBERNETES PODS
+
+POD is the smallest unit that exixts in k8s it is similar to that of token in C++ lang
+
+
+
