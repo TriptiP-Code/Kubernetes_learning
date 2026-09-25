@@ -282,4 +282,16 @@ container registries ,which are centralised repositories of container images are
 
 docker hub , amazon ECR ,and Google container registry are a new few well know conatiner regiestries
 
+CONTAINER IMAGES 
+
+Image is an executable pacakage of software that icludes everything needed to run an application 
+
+this imahe informs how a container should instantiate , determining which software components will run and how 
+
+container is a virtual env that bundles application codw with all the dependencies required to ryn the application 
+
+the application runs quickly and reliably from one computing env to another 
+
+container registeries which are centralised repositories of container images are where contianer images are kept docker hub , amazon ECR and GCR are a few well known contianer registeries 
+
 
