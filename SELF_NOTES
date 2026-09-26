@@ -334,3 +334,19 @@ DI built from dockerfiles or other images , DC strated from docker images using 
 DI does not change , remains the same across instances , DC changes ans state persist only for the lifecycle of the container 
 
 
+Architecture of Kuberentes 
+
+it includes a master node and one or more worker nodes 
+
+Understanding of master node 
+
+Kube apiserver : a frontend of the cluster that allows you to interract with th K8 API and connect to etcd database
+
+Kube-schduler : schedulers pods on specific nodes supported labels , taints and tolerations set for poods
+
+etcd : a database stores all cluster data which includes job schduling info , pod details stage info etc
+
+kube controller manager : manages the current state of the cluster 
+
+cloud ontroller manage : interactcs with outside cloud manager 
+
