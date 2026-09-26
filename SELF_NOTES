@@ -369,3 +369,13 @@ conatiners of an application are tightly coupled together in a pod
 
 by definiation a pod is the smallest unit that can be schdeuled as deployment in k8s
 
+TYPES OF K8S CONTAINERS 
+
+Docker containers : docker is the mostly used container runtime and also it is the default container runtime until the k8s deprecated docker
+
+PODMAN CONTAINERS : podman is the similar to the docker which is used to run and manage the containers and it is available on linus and windows
+
+CRI O CONTAINERS : CRI O is a container runtime thar is optimized for k8S , it is the default container runtime for RED HAT openshift
+
+CONTAINED CONRAINERS : Cintainered in simple terms is a container runtime that is containered is a software responsible for running and managing containers on a host system 
+
