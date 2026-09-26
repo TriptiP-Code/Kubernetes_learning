@@ -350,3 +350,22 @@ kube controller manager : manages the current state of the cluster
 
 cloud ontroller manage : interactcs with outside cloud manager 
 
+
+UNDERSTANDING OF WORKER NODE
+
+We would'nt get anywhere without worker nodes , these worker nodes are the nodes where application operate 
+
+the worker nodes communicate back with the master node , communication to a  worker node is handles by the kubelet process 
+
+kubelet : passes requests to the container enegine to ensure that pods are availble 
+
+kube proxy : runs on every node and uses iptables to provide an interface to connect to k8s components 
+
+container runtime : take care of actually running container 
+
+network agent : implements a software defined newtworking solution 
+
+conatiners of an application are tightly coupled together in a pod 
+
+by definiation a pod is the smallest unit that can be schdeuled as deployment in k8s
+
