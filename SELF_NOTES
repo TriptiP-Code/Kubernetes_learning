@@ -403,3 +403,13 @@ KI supports advanced routing (URL Based routing , ssl termination ) and basic ro
 
 KI required an ingress controller and ingress resources and K8s servies defined using servie respruces 
 
+
+FEATURES OF K8S CONTAINERS 
+
+Multi host container schdeuling : done by kube schduler , it assigns containers also referred to as pods in k8s to nodes at run time , it accounts for resources , quality of services and policies before schdulung 
+
+SCALABILITY AND AVAILABILITY : The k8s master is often deployed during a high available config , multi region deployments are vailable as well
+
+FLEXIBILITY AND MODULARIZATION : K8s includes a plug and play architecture that permits you to increaseit when u need to , there are specific adds ons from network drivers , service discovery container run time visualization and command
+
+REGISTRATION : 
