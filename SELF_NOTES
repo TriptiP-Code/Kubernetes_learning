@@ -412,4 +412,16 @@ SCALABILITY AND AVAILABILITY : The k8s master is often deployed during a high av
 
 FLEXIBILITY AND MODULARIZATION : K8s includes a plug and play architecture that permits you to increaseit when u need to , there are specific adds ons from network drivers , service discovery container run time visualization and command
 
-REGISTRATION : 
+REGISTRATION : new worker nodes can register themselves with the k8s master node 
+
+SERVICE DISCOVERY : Service discovery allows for automatic detection of 
+new services and endpoints via DNS or env variables 
+
+PERSISTENT STORAGE : it is much requested feature when working with containers , pods can use persistent volumes to store data therefore the data and therefore the daya is retained across pod restarts and craches
+
+MAINTENANCE : IT involves k8s manintenace and upgrades k8s features are always backwars compatible for some versions
+
+LOGGING AND MONITORING : in terms of logging and monitoring application monitoring or health checks are also built in tcp , http , or container exact health checks are avaible out of the box
+
+
+
