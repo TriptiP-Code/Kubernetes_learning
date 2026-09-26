@@ -393,3 +393,13 @@ DC is manual scaling using docker cli commands or docker compose or k8s automate
 DC is a docker networking for linking containers within the same host or network and k8s is advanced networking with builtin service discovery and loadbalancing
 
 
+K8S Ingress v/s k8s services 
+
+KI manages external access to services within a cluster and exposes a set of pods as a netowrk service
+
+KI provides http and https routing to services based on host and path and KS facilitates internal and external connectivity for pods 
+
+KI supports advanced routing (URL Based routing , ssl termination ) and basic routing mainly for unternal communcation within the cluster 
+
+KI required an ingress controller and ingress resources and K8s servies defined using servie respruces 
+
