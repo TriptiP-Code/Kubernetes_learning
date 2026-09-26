@@ -379,3 +379,17 @@ CRI O CONTAINERS : CRI O is a container runtime thar is optimized for k8S , it i
 
 CONTAINED CONRAINERS : Cintainered in simple terms is a container runtime that is containered is a software responsible for running and managing containers on a host system 
 
+
+DOCKER CONTAINER V/S KUBERNETES
+
+DC is a container management took for building , running and managing containers , k8s Container orchestration platform for automating deployment , scaling and managemnt of containerized applications 
+
+DC to package applications with their dependencies into containers and K8S orchestrates and manage containerized applications across a cluster of machines 
+
+DC uses docker cli or docker compose for managing individual containers or multi container applications and K8S uses kubectl and manifests for manging containers at scale withing clusters
+
+DC is manual scaling using docker cli commands or docker compose or k8s automated sacling using k8s controllers like deployments and statefulsets 
+
+DC is a docker networking for linking containers within the same host or network and k8s is advanced networking with builtin service discovery and loadbalancing
+
+
