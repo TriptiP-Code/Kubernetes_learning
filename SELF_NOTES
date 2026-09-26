@@ -320,4 +320,17 @@ the containers can even be docker containers
 the pods in k8s provide env dependencies which include persistent storage volumes which means it is permanent and is available storage volumes which means it is paermanent ans is available to all pods in the said cluster ans even config data that is required to run the container witjin the pods 
 
 
+DOCKER IMAGES AND DOCKER CONTAINERS 
+
+
+DI is blueprint for creating contianers and DC are running instance of a docker image 
+
+DI are static read only , DC are dynamic (read-write)
+
+DI provide a consistent env for applications , DC to execute applications within a controlled env 
+
+DI built from dockerfiles or other images , DC strated from docker images using the docker run command 
+
+DI does not change , remains the same across instances , DC changes ans state persist only for the lifecycle of the container 
+
 
