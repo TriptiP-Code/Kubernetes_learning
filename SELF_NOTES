@@ -484,3 +484,13 @@ metadata:
         imagePullPolicy:  Always
         command: ["echo", "SUCCESS"]------>
 
+name : Satiety : it is the name of the container which will be created after pulling the image from the registry
+
+name : gfg-image: it is the name given to the container which we want to create 
+
+image : <docker_image_name> : it is the name of the image which we needs to pull from the docker registry 
+
+imagePullPOlicy : Always : this pull policy defines that whenever we run this file to create the container , it will pull the same name again
+
+command: ["echo" , "SUCCESS"] : IF a container is successfully created then it will display a success message when we will access the container
+
