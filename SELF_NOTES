@@ -449,3 +449,25 @@ NETWORKING COMPLEXITY : K8S networking can be complexy especially when working w
 
 HIGHER RESOURCE REQUIREMENTS : running a k8s cluster can sonsure more resources thaat running a traditional app
 
+
+IMAGES IN K8S 
+
+A contianer image is used to represent binary data that is being used to encapsulate an application and all its software dependencies 
+
+container images can be represented as executabl software bundles that runstandalone and make very defined assumption about runtime env
+
+we create a container image of our appplication and push to registery before terming it a pod
+
+IMAGE NAMES 
+
+Image can contain names like pause , kube api server or example / my container 
+they can also have names like registry hostnames
+
+for e.g fictional.registry.example/imagename 
+
+they can even be port numbers like a fictional.registry.example:10443/imagename
+
+if we fail to specify a registry hosstname it will be asumed by k8s that we meant it as a docker public registry 
+
+after the image name we can add a tag , the main purpose of the tag is to let us identify diff versions of the same image series , the tag may consist of lowercase and upper case letters , periods , dashes and underscores 
+
