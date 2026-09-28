@@ -436,3 +436,16 @@ AUTOMATION : K8s automates many of the tasks associated with deploying and manag
 FLEXIBLITY : K8s allows for the use of multiple orchestration patterns such as blue green deployment , canary release and A/B testing which gives developers more flexiblity in how they deploy their application 
 
 
+BENEFITS OF K8S CONTAINERS 
+
+COMPLEXITY : complex to setup and manages especially for org that are new to container orchestration
+
+STEEP LEARNING CURVE : There is a steep learning curve for understanding how to use k8s effectively 
+
+LIMITED NATIVE SUPPORT FOR CERTAIN TECHNOLOGIES :
+k8s doesn not natively support certian tech such as windoes sontainers which can create challenges for orgs that use these tech
+
+NETWORKING COMPLEXITY : K8S networking can be complexy especially when working with multiple clusters or when trying to integrate with exixting netwok infra
+
+HIGHER RESOURCE REQUIREMENTS : running a k8s cluster can sonsure more resources thaat running a traditional app
+
