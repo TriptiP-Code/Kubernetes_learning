@@ -500,3 +500,16 @@ kubectl create -f <container_name>
 
 kubectl log Tesing_for_image_pull
 
+IMAGE UPDATING 
+
+when we create statefulset , od deployment or any other object that includes a pod template then the pull policy of all containers in that pod will be set to ifnotpresent by default if itis not explicietyly sepcified
+
+
+this specific policy causes kubelet to skip pulling an image if it already exixits
+
+the imagepullpolicy for any container and the tag associated with the image affets when the kubelet attempts to download or pull the specific image
+
+they can even set values to imagepullpolicy like ifNotpresent , always , or never 
+
+while we are using the image tags if the image registry were to change the code that the tag on the spcific image representation we might end up with a mixture of pofd running both the old and new code
+
