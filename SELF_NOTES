@@ -423,5 +423,16 @@ MAINTENANCE : IT involves k8s manintenace and upgrades k8s features are always b
 
 LOGGING AND MONITORING : in terms of logging and monitoring application monitoring or health checks are also built in tcp , http , or container exact health checks are avaible out of the box
 
+ADVANTAGES OF K8S CONTAINERS 
+
+SCALABILITY : K8S allows for easy scaling of applications by increasing or decreasing THE NUMBER OF REPLICAS OF A PARTICULAR SERVICES 
+
+HIGH AVAILABILITY : K8s provides features such as self healing and automatic failover which help ensure that appplications remain avaialbke even in the event of a node failure 
+
+PORTABILITY : K8s is designed to be platform agnostic which means that apps can be deployed on any infra whether it be on preminse , int cloud or at edge 
+
+AUTOMATION : K8s automates many of the tasks associated with deploying and managing applications such as rolling updates , service discovery and load balacing 
+
+FLEXIBLITY : K8s allows for the use of multiple orchestration patterns such as blue green deployment , canary release and A/B testing which gives developers more flexiblity in how they deploy their application 
 
 
