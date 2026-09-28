@@ -494,3 +494,9 @@ imagePullPOlicy : Always : this pull policy defines that whenever we run this fi
 
 command: ["echo" , "SUCCESS"] : IF a container is successfully created then it will display a success message when we will access the container
 
+IMAGE COMMANDS 
+
+kubectl create -f <container_name>
+
+kubectl log Tesing_for_image_pull
+
