@@ -471,3 +471,16 @@ if we fail to specify a registry hosstname it will be asumed by k8s that we mean
 
 after the image name we can add a tag , the main purpose of the tag is to let us identify diff versions of the same image series , the tag may consist of lowercase and upper case letters , periods , dashes and underscores 
 
+IMAGE CONFIG FILE 
+
+apiVersion: v1
+kind: pod
+metadata:
+  name: Satiety
+  spec:
+     containers:
+        - name:  gfg-iamge
+        image: <docker_imahe_name>
+        imagePullPolicy:  Always
+        command: ["echo", "SUCCESS"]------>
+
